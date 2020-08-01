@@ -45,12 +45,14 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # PIPFileかrequirements.txtのどちらか一つで良い
 # pipenv run pip freeze > requirements.txt
 
+# STATIC_ROOT を設定
+# python manage.py collectstatic
+
 # pipenv install django_heroku
 #import django_heroku
 #django_heroku.settings(locals())
 
-# STATIC_ROOT を設定
-# python manage.py collectstatic
+
 
 
 # ALLOWED_HOSTS = ['django-project7.herokuapp.com/']
