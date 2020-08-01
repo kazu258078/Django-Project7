@@ -52,7 +52,9 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 #import django_heroku
 #django_heroku.settings(locals())
 
-
-
-
 # ALLOWED_HOSTS = ['django-project7.herokuapp.com/']
+
+
+# heroku run python manage.py makemigrations --app django-project7
+# heroku run python manage.py migrate --app django-project7
+# heroku ps:scale web=1 --app django-project7
