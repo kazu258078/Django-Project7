@@ -40,6 +40,9 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # pipenv install gunicorn
 # pipenv install psycopg2
 # pip install dj-database-url gunicorn whitenoise
+
+
+# PIPFileかrequirements.txtのどちらか一つで良い
 # pipenv run pip freeze > requirements.txt
 
 # pipenv install django_heroku
@@ -48,3 +51,6 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # STATIC_ROOT を設定
 # python manage.py collectstatic
+
+
+# ALLOWED_HOSTS = ['django-project7.herokuapp.com/']
