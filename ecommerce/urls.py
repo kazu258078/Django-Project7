@@ -42,7 +42,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 # pip install dj-database-url gunicorn whitenoise
 
 
-# PIPFileかrequirements.txtのどちらか一つで良い
+# Pipfileかrequirements.txtのどちらか一つで良い
 # pipenv run pip freeze > requirements.txt
 
 # STATIC_ROOT を設定
