@@ -124,7 +124,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-MEDIA_URL = '/images/'
+MEDIA_URL = '/static/images/'
 
 # MEDIA_ROOTを指定しないとデファオルトではROOTディレクトリに画像がuploadされる
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
