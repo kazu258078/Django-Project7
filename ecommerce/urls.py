@@ -57,4 +57,5 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # heroku run python manage.py makemigrations --app django-project7
 # heroku run python manage.py migrate --app django-project7
+# heroku run python manage.py createsuperuser --app django-project7
 # heroku ps:scale web=1 --app django-project7
