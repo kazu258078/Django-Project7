@@ -33,12 +33,14 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 # DEBUG=Falseにする
 
+#gitignore作成
+
 # Create a Procfile containing:
 # web: gunicorn mysite-project.wsgi --log-file -
 # pipenv install gunicorn
 # pipenv install psycopg2
 # pip install dj-database-url gunicorn whitenoise
-# pipenv freeze > requirements.txt
+# pipenv run pip freeze > requirements.txt
 
 # pipenv install django_heroku
 #import django_heroku
