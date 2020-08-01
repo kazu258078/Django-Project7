@@ -1,1 +1,1 @@
-gunicorn mysite-project.wsgi --log-file -
+gunicorn ecommerce.wsgi --log-file -
